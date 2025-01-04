@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Cart</title>
+  <meta name="description" content="Explore the range of services offered by SolarTech Solutions to power your life with clean, renewable energy.">
+  <meta name="keywords" content="solar services, renewable energy, clean energy, solar panel installation">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="services-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">Solar Nova</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="cart.html"  class="active" id="shopping-bag">🛒(0)</a></li>
+          <li id="login-link">
+            <a href="login.html">Login</a>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/page-title-bg.jpg);">
+      <div class="container position-relative">
+        <h1>Your Cart</h1>
+      </div>
+    </div>
+
+    <div class="cart-page">
+    <div class="cart-content">
+      <div id="cart-items">
+      </div>
+    </div>
+  </div>
+
+  <div class="cart-summary">
+    <div id="cart-summary-content">
+    </div>
+    <button id="clear-cart" class="clear-cart-btn">Clear Cart</button>
+    <button id="checkout-cart" class="checkout-cart-btn">Checkout</button>
+  </div>
+  
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Solar Nova</span>
+          </a>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Products</h4>
+          <ul>
+            <li><a href="service-details.html">Solar Chargers</a></li>
+            <li><a href="service-details.html">Solar Lights</a></li>
+            <li><a href="service-details.html">Solar Powerbanks</a></li>
+            <li><a href="service-details.html">Solar Fans</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>No. 135號, Yuandong Rd</p>
+          <p>Zhongli District, Taoyuan City, 320</p>
+          <p>Taiwan</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+886 1234567</span></p>
+          <p><strong>Email:</strong> <span>solar@nova.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Solar Nova</strong> <span>All Rights Reserved</span></p>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+    const renderCart = () => {
+      const cartItemsContainer = document.getElementById('cart-items');
+      const cartSummaryContent = document.getElementById('cart-summary-content');
+      const cart = JSON.parse(localStorage.getItem('cart')) || [];
+  
+      cartItemsContainer.innerHTML = '';
+      cartSummaryContent.innerHTML = '';
+  
+      if (cart.length === 0) {
+        cartItemsContainer.innerHTML = '<p>Your cart is empty.</p>';
+        return;
+      }
+  
+      let total = 0;
+  
+      cart.forEach((item) => {
+        total += item.price * item.quantity;
+  
+        const cartItem = document.createElement('div');
+        cartItem.className = 'cart-item';
+        cartItem.innerHTML = `
+          <div class="cart-item-info">
+            <h4>${item.name}</h4>
+            <p>Quantity: ${item.quantity}</p>
+            <p>Price: $${item.price.toFixed(2)}</p>
+          </div>
+        `;
+        cartItemsContainer.appendChild(cartItem);
+      });
+  
+      cartSummaryContent.innerHTML = `<p>Total: $${total.toFixed(2)}</p>`;
+    };
+  
+    const clearCart = () => {
+      localStorage.removeItem('cart');
+      renderCart();
+    };
+  
+    const clearCartButton = document.getElementById('clear-cart');
+    if (clearCartButton) {
+      clearCartButton.addEventListener('click', () => {
+        clearCart();
+        alert('Cart cleared!');
+      });
+    }
+  
+    renderCart();
+  });
+  document.addEventListener('DOMContentLoaded', () => {
+    const renderCart = () => {
+      const cartItemsContainer = document.getElementById('cart-items');
+      const cartSummaryContent = document.getElementById('cart-summary-content');
+      const cart = JSON.parse(localStorage.getItem('cart')) || [];
+  
+      cartItemsContainer.innerHTML = '';
+      cartSummaryContent.innerHTML = '';
+  
+      if (cart.length === 0) {
+        cartItemsContainer.innerHTML = '<p>Your cart is empty.</p>';
+        return;
+      }
+  
+      let total = 0;
+  
+      cart.forEach((item) => {
+        total += item.price * item.quantity;
+  
+        const cartItem = document.createElement('div');
+        cartItem.className = 'cart-item';
+        cartItem.innerHTML = `
+          <div class="cart-item-info">
+            <h4>${item.name}</h4>
+            <p>Quantity: ${item.quantity}</p>
+            <p>Price: $${item.price.toFixed(2)}</p>
+          </div>
+        `;
+        cartItemsContainer.appendChild(cartItem);
+      });
+  
+      cartSummaryContent.innerHTML = `<p>Total: $${total.toFixed(2)}</p>`;
+    };
+  
+    const clearCart = () => {
+      localStorage.removeItem('cart');
+      renderCart();
+    };
+  
+    const checkoutCart = () => {
+      const cart = JSON.parse(localStorage.getItem('cart')) || [];
+      if (cart.length === 0) {
+        alert('Your cart is empty. Add items before checking out.');
+        return;
+      }
+  
+      alert('Thank you for your purchase! Your order is being processed.');
+      localStorage.removeItem('cart');
+      renderCart();
+    };
+  
+    const clearCartButton = document.getElementById('clear-cart');
+    if (clearCartButton) {
+      clearCartButton.addEventListener('click', () => {
+        clearCart();
+        alert('Cart cleared!');
+      });
+    }
+  
+    const checkoutCartButton = document.getElementById('checkout-cart');
+    if (checkoutCartButton) {
+      checkoutCartButton.addEventListener('click', () => {
+        checkoutCart();
+      });
+    }
+  
+    renderCart();
+  });
+  
+  </script>
+
+</body>
+
+</html>
