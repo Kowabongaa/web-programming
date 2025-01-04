@@ -804,7 +804,6 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  background-image: url('assets/img/world-dotted-map.png'); 
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
